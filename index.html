@@ -3,9 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GamerZone - Tu tienda gaming</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Cabecera común -->
+    <header>
+        <h1>Gamer<span>Zone</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="activo">Inicio</a></li>
+                <li><a href="producto.html">Producto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+
+        <section class="hero">
+            <h2>Bienvenido a <span>GamerZone</span></h2>
+            <p>Tu tienda de referencia en periféricos, hardware y accesorios gaming.
+                Encuentra el equipo que necesitas para llevar a tu juego al siguiente nivel.</p>
+            <a href="producto.html" class="btn">Ver productos</a>
+        </section>
+
+        <!-- Ctegorías -->
+        <section class="categorias">
+            <h2>Categorías</h2>
+            <div class="grid-categorias">
+                <div class="tarjeta-categoria">
+                    <div class="icono">🖱️</div>
+                    <h3>Ratones</h3>
+                    <p>Alta precisión para cada género</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono">⌨️</div>
+                    <h3>Teclados</h3>
+                    <p>Mecánicos y de membrana</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono">🎧</div>
+                    <h3>Auriculares</h3>
+                    <p>Sonido envolvente 7.1</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono">🖥️</div>
+                    <h3>Monitores</h3>
+                    <p>144Hz y resolución 4k</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono">🎮</div>
+                    <h3>Mandos</h3>
+                    <p>Compatible con Pc y consola</p>
+                </div>
+                <div class="tarjeta-categoria">
+                    <div class="icono">💺</div>
+                    <h3>Sillas</h3>
+                    <p>Ergonómicas para largas sesiones</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="destacados">
+            <h2>Productos destacados</h2>
+            <div class="grid-productos">
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🖱️</div>
+                    <div class="info">
+                        <h3>Ratón Logitech G502 X Plus</h3>
+                        <p class="precio">89,99 €</p>
+                        <a href="producto.html">Ver detalles →</a>
+                    </div>
+                </div>
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">⌨️</div>
+                    <div class="info">
+                        <h3>Telcado HyperX Alloy Origins</h3>
+                        <p class="precio">109,99 €</p>
+                        <a href="producto.html">Ver detalles →</a>
+                    </div>
+                </div>
+                <div class="tarjeta-producto">
+                    <div class="imagen-producto">🎧</div>
+                    <div class="info">
+                        <h3>Auriculares SteelSeries Arctis 7</h3>
+                        <p class="precio">149,99 €</p>
+                        <a href="producto.html">Ver detalles →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GamerZone - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
