@@ -3,9 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GamerZone - Contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>Gamer<span>Zone</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="producto.html">Producto</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
+        <div class="seccion-titulo">
+            <h2>Contacta con nosotros</h2>
+            <p>¿Tienes alguna duda? Estamos aquí para ayudarte.</p>
+        </div>
+
+        <div class="contacto-layout">
+            <div class="info-contacto">
+                <h3>Información</h3>
+
+                <div class="dato-contacto">
+                    <div class="icono-contacto">📍</div>
+                    <div class="texto">
+                        <h4>Dirección</h4>
+                        <p>Calle Progreso 14, Bajo <br>36700 Tui, Pontevedra</p>
+                    </div>
+                </div>
+
+                <div class="dato-contacto">
+                    <div class="icono-contacto">📞</div>
+                    <div class="texto">
+                        <h4>Teléfono</h4>
+                        <p>986 123 456</p>
+                    </div>
+                </div>
+
+                <div class="dato-contacto">
+                    <div class="icono-contacto">✉️</div>
+                    <div class="texto">
+                        <h4>Correo electrónico</h4>
+                        <p>info@gamerzone.com</p>
+                    </div>
+                </div>
+
+                <h3 class="horario-titulo">Horario</h3>
+                <table class="horario-tabla">
+                    <tr>
+                        <td>Lunes - Viernes</td>
+                        <td>10:00 - 20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábados</td>
+                        <td>10:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingos</td>
+                        <td>Cerrado</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Formulario -->
+            <div class="formulario-contacto">
+                <h3>Envíanos un mensaje</h3>
+
+                <form id="formulario-contacto" onsubmit="return validarFormulario()">
+
+                    <div class="fila-campos">
+                        <div class="campo-grupo">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nomnbre">
+                        </div>
+                        <div class="campo-grupo">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos">
+                        </div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
