@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GamerZone - Logitech G502 X Plus</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <!-- Cabecera -->
+    <header>
+        <h1>Gamer<span>Zone</span></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="producto.html" class="activo">Producto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p class="breadcrum">
+            <a href="index.html">Inicio</a> &gt;
+            <a href="#">Ratones</a> &gt;
+            <span>Logitech G502 X Plus</span>
+        </p>
+
+        <div class="producto-detalle">
+            <div class="producto-imagen">🖱️</div>
+
+            <!-- Información -->
+            <div class="producto-info">
+                <p class="marca">Logitech</p>
+                <h2>G502 X Plus Gaming Mouse</h2>
+                <p class="precio">89,99 €</p>
+                <p class="precio-anterior">119,99 €</p>
+                <p class="stock">✔ En stock - Envío en 24h</p>
+
+                <p class="descripcion">
+                    El Logitech G502 X Plus es un ratón gaming inalámbrico de alto rendimiento
+                    diseñado para jugadores exigentes. Con su sensor HERO 25K y tecnología
+                    LIGHTFORCE, ofrece una precisión excepcional y una respuesta ultra rápida.
+                    Ideal para juegos de disparos, estrategia y cualquier género competitivo.
+                </p>
+
+                <ul class="caracterisricas">
+                    <li>Sensor óptico HERO 25k DPI</li>
+                    <li>Tecnología LIGHTFORCE (híbidro óptico-mecánico)</li>
+                    <li>Conexión inalámbrica LIGHTSPEED</li>
+                    <li>Autonomía de hasta 190 horas</li>
+                    <li>RGB LIGHTSYNC personalizable</li>
+                    <li>13 botones programables</li>
+                    <li>Compatible con PC y MAC</li>
+                </ul>
+
+                <div class="acciones">
+                    <button class="btn" onclick="agregarCarrito()">🛒 Agrgar al carrito</button>
+                    <a href="contacto.html" class="btn-secundario">Consultar</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Especificaciones técnicas-->
+        <div class="especificaciones">
+            <h3>Especificaciones técnicas</h3>
+            <table class="tabla-specs">
+                <tr>
+                    <td>Sensor</td>
+                    <td>HERO 25k óptico</td>
+                </tr>
+                <tr>
+                    <td>DPI máximo</td>
+                    <td>100 - 25.600</td>
+                </tr>
+                <tr>
+                    <td>Tasa de sondeo</td>
+                    <td>125 / 250 / 500 / 1000 Hz</td>
+                </tr>
+                <tr>
+                    <td>Conectividad</td>
+                    <td>LIGHTSPEED inalámbrico / USB-C</td>
+                </tr>
+                <tr>
+                    <td>Batería</td>
+                    <td>Hasta 130 horas (sin RGB)</td>
+                </tr>
+                <tr>
+                    <td>Peso</td>
+                    <td>106 g</td>
+                </tr>
+                <tr>
+                    <td>Dimensiones</td>
+                    <td>131.4 x 79.2 x 42.9 mm</td>
+                </tr>
+                <tr>
+                    <td>Compatibilidad</td>
+                    <td>Windows 10/11, macOS 10.15+</td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GamerZone - Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
