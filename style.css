@@ -187,7 +187,7 @@ footer {
     gap: 20px;
 }
 
-.targeta-categoria {
+.tarjeta-categoria {
     background-color: #1a1a2e;
     border: 1px solid #2a2a4e;
     border-radius: 8px;
@@ -202,12 +202,12 @@ footer {
     transform: translateY(-5px);
 }
 
-.targeta-categoria .icono {
+.tarjeta-categoria .icono {
     font-size: 2.5rem;
     margin-bottom: 15px;
 }
 
-.targeta-categoria h3 {
+.tarjeta-categoria h3 {
     font-size: 1rem;
     color: #ffffff;
     text-transform: uppercase;
@@ -215,8 +215,252 @@ footer {
     margin-bottom: 8px;
 }
 
-.targeta-categoria p {
+.tarjeta-categoria p {
     font-size: 0.85rem;
     color: #888;
 }
 
+/* Destacados */
+.destacados h2 {
+    font-size: 1.5rem;
+    color: #e94560;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    border-left: 4px solid #e94560;
+    padding-left: 15px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.tarjeta-producto {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4e;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.3s;
+}
+
+.tarjeta-producto:hover {
+    border-color: #e94560;
+}
+
+.tarjeta-producto .imagen-producto {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(135deg, #16213e, #0f3460);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.tarjeta-producto .info {
+    padding: 15px;
+}
+
+.tarjeta-producto h3 {
+    font-size: 0.95rem;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.tarjeta-producto .precio {
+    font-size: 1.1rem;
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    transition: color 0.3s;
+}
+
+.tarjeta-producto a {
+    font-size: 0.8rem;
+    color: #aaa;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+    transition: color 0.3s;
+}
+
+.tarjeta-producto a:hover {
+    color: #e94560;
+}
+
+/* Detalle de producto*/
+/* Migas de pan*/
+.breadcrum {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.breadcrum a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.breadcrum a:hover {
+    color: #e94560;
+}
+
+.breadcrum span {
+    color: #e94560;
+}
+
+.producto-detalle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.producto-imagen {
+    background: linear-gradient(135deg, #16213e, #0f3460);
+    border: 1px solid #2a2a4e;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    min-height: 350px;
+}
+
+.producto-info h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.producto-info .marca {
+    font-size: 0.9rem;
+    color: #e94560;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.producto-info .precio {
+    font-size: 2rem;
+    color: #e94560;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.producto-info .precio-anterior {
+    font-size: 0.9rem;
+    color: #666;
+    text-decoration: line-through;
+    margin-bottom: 20px;
+}
+
+.producto-info .descipcion {
+    font-size: 0.95rem;
+    color: #aaa;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    border-top: 1px solid #2a2a4e;
+    padding-top: 20px;
+}
+
+.caracteristicas {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.caracteristicas li {
+    font-size: 0.9rem;
+    color: #ccc;
+    padding: 6px 0;
+    border-bottom: 1px solid #1e1e3e;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.caracteristicas li::before {
+    content: "▶";
+    color: #e94560;
+    font-size: 0.6rem;
+}
+
+/* botones */
+.acciones {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.stock {
+    font-size: 0.85rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+
+.especificaciones {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a4e;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.especificaciones h3 {
+    font-size: 1.1rem;
+    color: #e94560;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-left: 3px solid #e94560;
+    padding-left: 12px;
+}
+
+.tabla-specs {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-specs tr {
+    border-bottom: 1px solid #2a2a4e;
+}
+
+.tabla-specs tr:last-child {
+    border-bottom: none;
+}
+
+.tabla-specs td {
+    padding: 10px 5px;
+    font-size: 0.9rem;
+}
+
+.tabla-specs td:first-child {
+    color: #888;
+    width: 40%;
+}
+
+.tabla-specs td:last-child {
+    color: #e0e0e0;
+}
+
+/* Formulario */
+.seccion-titulo {
+    margin-bottom: 40px;
+}
+
+.seccion-titulo h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.seccion-titulo p {
+    color: #888;
+    font-size: 0.95rem;
+}
+
+.contacto-layout {
+    
+}
