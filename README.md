@@ -36,7 +36,7 @@ GamerZone es una tienda online estática de periféricos y accesorios gaming. El
 
 El proyecto está desplegado en GitHub Pages y puede visitarse directamente en el siguiente enlace:
 
-🔗 [[https://diegofonterosa.github.io/Proyecto---Desarrollo-de-una-aplicaci-n-web/](https://diegofonterosa.github.io/Proyecto---Desarrollo-de-una-aplicaci-n-web/)](https://diegofonterosa.github.io/Proyecto-tienda-gaming-web/)
+🔗 https://diegofonterosa.github.io/Proyecto-tienda-gaming-web/
 
 También puede clonarse y abrirse localmente:
 
