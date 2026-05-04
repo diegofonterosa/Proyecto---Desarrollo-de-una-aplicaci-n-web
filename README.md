@@ -22,7 +22,7 @@ GamerZone es una tienda online estática de periféricos y accesorios gaming. El
 
 ## Estructura del proyecto
 
-```
+``` text
 ├── index.html
 ├── producto.html
 ├── contacto.html
@@ -41,7 +41,7 @@ El proyecto está desplegado en GitHub Pages y puede visitarse directamente en e
 También puede clonarse y abrirse localmente:
 
 ```bash
-https://github.com/diegofonterosa/Proyecto-tienda-gaming-web.git
+git clone https://github.com/diegofonterosa/Proyecto-tienda-gaming-web.git
 ```
 
 Luego abrir `index.html` directamente en el navegador.
