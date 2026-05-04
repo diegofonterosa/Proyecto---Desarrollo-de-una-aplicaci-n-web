@@ -1,9 +1,9 @@
 /* Validar el formulario */
 
 function validarFormulario() {
-    var nombre = document.getElementById("nombre").value;
-    var email = document.getElementById("email").value;
-    var mensaje = document.getElementById("mensaje").value;
+    const nombre = document.getElementById("nombre").value;
+    const email = document.getElementById("email").value;
+    const mensaje = document.getElementById("mensaje").value;
 
     if (nombre === "" || nombre === null) {
         alert("Por favor, introduce tu nombre.");
